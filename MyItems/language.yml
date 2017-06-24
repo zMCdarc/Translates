@@ -1,0 +1,293 @@
+#-----=====[ Prefix Message ]=====-----#
+
+Prefix: "&8&l[&aMyItems&8&l]&r "
+
+#-----=====[ Metrics Message ]=====-----#
+
+Metrics_Success: "Success to submit stats metrics"
+Metrics_Failed: "Failed to submit stats metrics"
+
+#-----=====[ Hook Message ]=====-----#
+
+Hook_Header: "&8&l&m=-=-=-=-=-=-=-=-=-=-=&r &2{plugin} Dependencies &8&l&m=-=-=-=-=-=-=-=-=-=-="
+Hook_Soft_Dependency_Header: "&5Soft-Dependency&f:"
+Hook_Soft_Dependency_List: "&5- &d{hook} &8[{status}&8]"
+Hook_Hard_Dependency_Header: "&5Hard-Dependency&f:"
+Hook_Hard_Dependency_List: "&5- &d{hook} &8[{status}&8]"
+Hook_Footer: "&8&l&m=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-="
+Hook_Status_Hooked: "&4Hooked"
+Hook_Status_Not_Hook: "&4Not-Hooked"
+
+#-----=====[ Updater Message ]=====-----#
+
+Updater_Header: "&8&l&m=-=-=-=-=-=-=-=-=-=-=-=-=-=&r &2Updater &8&l&m=-=-=-=-=-=-=-=-=-=-=-=-=-="
+Updater_Plugin: "&7Plugin: &6{plugin}"
+Updater_Author: "&7Author: &e{author}"
+Updater_Type: "&7Type: &8{type}"
+Updater_Version_Now: "&7Current Version: &8{current}"
+Updater_Version_Latest: "&7Latest Version: &8{latest}"
+Updater_Link: "&7Link: &5{link}"
+Updater_Footer: "&8&l&m=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-="
+Updater_Failed: "Failed connect to get plugin updater"
+
+#-----=====[ Plugin Message ]=====-----#
+
+Plugin_Deactivated: "Plugin was deactivated from control panel"
+Plugin_Information_Not_Match: "Information of plugin doesn't match!"
+
+#-----=====[ Console Message ]=====-----#
+
+Console_Command_Forbiden: "Only player can execute this command!"
+
+#-----=====[ Character Message ]=====-----#
+
+Contains_Special_Character: "Cannot contain special character!"
+
+#-----=====[ Command Message ]=====-----#
+
+MyItems_Save_Success: "Success save item with name &c{nameid}&7"
+MyItems_Load_Success_To_Sender: "You are give &c{amount}x {nameid} &rto &d{target}"
+MyItems_Load_Success_To_Target: "You are given &c{amount}x {nameid} &rfrom &d{sender}"
+MyItems_Load_Success_Self: "You are get &c{amount}x {nameid}"
+MyItems_Remove_Success: "Success remove item with name &c{nameid}"
+MyItems_Amount_Success: "Success set amount of your item to &c{amount} pieces"
+MyItems_Data_Success: "Success set data of your item to &c{data}"
+MyItems_Material_Success: "Success set material of your item to &c{material}"
+MyItems_Material_Not_Existss: "Material of &c{material} &ris not exists!"
+MyItems_Reload_Success: "Success reload plugin"
+MyItems_Repair_Success: "Your held item has repaired"
+MyItems_Repair_Success_To_Sender: "Success repair {target}'s item"
+MyItems_Repair_Success_To_Target: "Your item has been repaired by {sender}"
+MyItems_SetName_Success: "Change name of mainhand item to &8[&r{name}&8]"
+MyItems_SetLore_Success: "Set lore of &cline {line} &rto &d{lore}"
+MyItems_InsertLore_Sucess: "Insert lore on &cline {line} &rto &d{lore}"
+MyItems_AddLore_Success: "Success add lore to held item"
+MyItems_RemoveLore_Empty: "Your item doesn't contains any lore!"
+MyItems_RemoveLore_Success: "Success remove lore on &cline {line}"
+MyItems_RemoveLore_Lore_Correction: "You need correct line to remove lore from your item"
+MyItems_ClearLore_Success: "Success clear all lore from your held item"
+MyItems_AddFlag_Success: "Success add flag &c{flag}"
+MyItems_RemoveFlag_Success: "Success remove flag &c{flag}"
+MyItems_ClearFlag_Success: "Success remove all flag from your item"
+MyItems_ClearNBT_Success: "Success all NBT Attributes from your item"
+MyItems_AddEnchant_Success: "Success add enchantment of &8[&c{enchantment} {grade}&8]"
+MyItems_RemoveEnchant_Success: "Success remove enchantment of &8[&c{enchantment}&8]"
+MyItems_ClearEnchant_Success: "Success remove all enchantment from held item"
+MyItems_Unbreakable_Turn_On: "Turn on unbreakable state of held item."
+MyItems_Unbreakable_Turn_Off: "Turn off unbreakable state of held item."
+MyItems_Attribute_Stats_Success: "Success set attribute stats of &d{stats} &rto &8&l[&r{value}&8&l]"
+MyItems_Attribute_Stats_Not_Exists: "Lorestats of &d{stats} &ris not exists!"
+MyItems_Attribute_Element_Success: "Success set element of &d{element} &rto &8&l[&r{value}&8&l]"
+MyItems_Attribute_Element_Not_Exists: "Element of &d{element} &ris not exists!"
+MyItems_Attribute_Buffs_Success: "Success set attribute buff of &d{buffs} &rto &8&l[&rGrade {grade}&8&l]"
+MyItems_Attribute_Buffs_Not_Exists: "Buff of &d{buff} &ris not exists!"
+MyItems_Attribute_NBT_Not_Exists: "Tags attribute of &d{NBT} &ris not exists!"
+MyItems_Attribute_NBT_Value_Not_Exists: "Value of NBT &d{NBT} &ris not set!"
+MyItems_Attribute_NBT_Value_Invalid: "Invalid value when set NBT of &d{NBT}"
+MyItems_Attribute_NBT_Success: "Success set NBT attribute tags of &d{NBT} &rto &8&l[&r{value}&8&l]"
+MyItems_Attribute_Power_Not_Exists: "Power of &d{power} &ris not exists!"
+MyItems_Attribute_Power_Command_Not_Exists: "Power command of &d{command} &ris not exists!"
+MyItems_Attribute_Power_Command_Success: "Success set power command of &d{command}"
+Myitems_Attribute_Power_Shoot_Not_Exists: "Power shoot of &d{projectile} &ris not exists!"
+Myitems_Attribute_Power_Shoot_Success: "Success set power shoot of &d{projectile}"
+MyItems_Attribute_Power_Special_Not_Exists: "Special power of &d{special} &ris not exists!"
+MyItems_Attribute_Power_Special_Success: "Success set special power of &d{special}"
+MyItems_Attribute_Ability_Not_Exists: "Ability of &d{ability} &ris not exists!"
+MyItems_Attribute_Ability_Success: "Success set ability of &d{ability} &rto &8&l[&rGrade {grade}&8&l]"
+MyItems_Socket_Success: "Success add slot socket on &cline {line}"
+MyItems_Socket_Success_To_Sender: "You are give &c{amount}x {nameid} &rto &d{target}"
+MyItems_Socket_Success_To_Target: "You are given &c{amount}x {nameid} &rfrom &d{sender}"
+MyItems_Socket_Success_Self: "You are get &c{amount}x {nameid}"
+
+#-----=====[ Argument Message ]=====-----#
+
+Argument_Not_Complete: "Argument command is not complete!"
+Argument_Invalid_Value: "Invalid value amount!"
+Argument_Invalid_Command: "Argument command is invalid!"
+Argument_MyItems_Help: "{tooltip_help} &3/myitems help &b[<page>]"
+Argument_MyItems_Save: "{tooltip_save} &3/myitems save &b<nameid>"
+Argument_MyItems_Load: "{tooltip_load} &3/myitems load &b<nameid> [<player>] [<amount>]"
+Argument_MyItems_Remove: "{tooltip_remove} &3/myitems remove &b<nameid>"
+Argument_MyItems_Repair: "{tooltip_repair} &3/myitems repair &b[<player>] [<repair>]"
+Argument_MyItems_Simulation: "{tooltip_simulation} &3/myitems simulation &b[<damage>] [<defense>] [<shield>]"
+Argument_MyItems_Amount: "{tooltip_amount} &3/myitems amount &b<amount>"
+Argument_MyItems_Data: "{tooltip_data} &3/myitems data &b<data>"
+Argument_MyItems_Material: "{tooltip_material} &3/myitems material &b<material>"
+Argument_MyItems_About: "{tooltip_about} &3/myitems about"
+Argument_MyItems_List: "{tooltip_list} &3/myitems list &b[<page>]"
+Argument_MyItems_Reload: "{tooltip_reload} &3/myitems reload"
+Argument_SetName: "{tooltip_setname} &3/setname &b<name>"
+Argument_SetLore: "{tooltip_lore_set} &3/setlore &b<line> <lore>"
+Argument_InsertLore: "{tooltip_lore_insert} &3/insertlore &b<line> <lore>"
+Argument_AddLore: "{tooltip_lore_add} &3/addlore &b[<lore>]"
+Argument_RemoveLore: "{tooltip_lore_remove} &3/removelore &b<line>"
+Argument_ClearLore: "{tooltip_lore_clear} &3/clearlore"
+Argument_AddFlag: "{tooltip_flag_add} &3/addflag &b<flag>"
+Argument_RemoveFlag: "{tooltip_flag_remove} &3/removeflag &b<flag>"
+Argument_ClearFlag: "{tooltip_flag_clear} &3/clearflag"
+Argument_AddEnchant: "{tooltip_enchant_add} &3/addenchant &b<grade> <enchantment>"
+Argument_RemoveEnchant: "{tooltip_enchant_remove} &3/remenchant &b<enchantment>"
+Argument_ClearEnchant: "{tooltip_enchant_clear} &3/clearenchant"
+Argument_Unbreakable: "{tooltip_unbreakable} &3/unbreakable &b[<true|false>]"
+Argument_Attribute_Stats: "{tooltip_att_stats} &3/attribute stats &b<stats> <value> [<line>]"
+Argument_Attribute_Element: "{tooltip_att_element} &3/attribute element &b<element> <value> [<line>]"
+Argument_Attribute_Buffs: "{tooltip_att_buffs} &3/attribute buff &b<buff> <grade> [<line>]"
+Argument_Attribute_NBT: "{tooltip_att_nbt} &3/attribute NBT &b<tags> <value> [<slot>]"
+Argument_Attribute_Power: "{tooltip_att_power} &3/attribute power &b<power> <click> <type> [<cooldown>] [<line>]"  
+Argument_Attribute_Ability: "{tooltip_att_ability} &3/attribute ability &b<ability> <grade> <chance> [<line>]"
+Argument_Socket_Add: "{tooltip_socket_add} &3/socket add &b[<line>]"
+Argument_Socket_Load: "{tooltip_socket_load} &3/socket load &b<nameid> [<player>] [<amount>]"
+Argument_Socket_List: "{tooltip_socket_list} &3/socket list &b[<page>]"
+
+#-----=====[ Tooltip Message ]=====-----#
+
+Tooltip_MyItems_Help: "Show all command from MyItems plugin"
+Tooltip_MyItems_Save: "Save held item to database"
+Tooltip_MyItems_Load: "Load item from database"
+Tooltip_MyItems_Remove: "Remove item in database"
+Tooltip_MyItems_Repair: "Repair custom durability item"
+Tooltip_MyItems_Simulation: "Show damage simulation"
+Tooltip_MyItems_Amount: "Set item amount"
+Tooltip_MyItems_Data: "Set data item"
+Tooltip_MyItems_Material: "Set material item"
+Tooltip_MyItems_About: "Show all information about the plugin"
+Tooltip_MyItems_List: "Show all items in database"
+Tooltip_MyItems_Reload: "Reload MyItems plugin"
+Tooltip_Setname: "Set display name of held item"
+Tooltip_Lore_Set: "Set lore item at certain line"
+Tooltip_Lore_Insert: "Insert lore item at certain line"
+Tooltip_Lore_Add: "Add lore item"
+Tooltip_Lore_Remove: "Remove lore item"
+Tooltip_Lore_Clear: "Clear all lores from held item"
+Tooltip_Flag_Add: "Add flag item"
+Tooltip_Flag_Remove: "Remove flag item"
+Tooltip_Flag_Clear: "Clear all flags item"
+Tooltip_Enchant_Add: "Add enchantment to item"
+Tooltip_Enchant_Remove: "Remove enchantment item"
+Tooltip_Enchant_Clear: "Clear all enchantments"
+Tooltip_Unbreakable: "Turn on/off unbreakable state of held item"
+Tooltip_Attribute_Stats: "Set lorestats to held item"
+Tooltip_Attribute_Buffs: "Set buffs to held item"
+Tooltip_Attribute_Ability: "Set ability to held item"
+Tooltip_Attribute_Power: "Set power to held item"
+Tooltip_Attribute_Element: "Add element to held item"
+Tooltip_Attribute_NBT: "Set NBT stats to held item" 
+Tooltip_Socket_Add: "Add empty socket to held item"
+Tooltip_Socket_Load: "Load gems from database"
+Tooltip_Socket_List: "Show all gems in database"
+
+#-----=====[ Help Message ]=====-----#
+
+Help_Header: "&2MyItems Help&7: &8[&c{page}&7/&c{maxpage}&8]"
+
+#-----=====[ List Message ]=====-----#
+
+List_Header: "&7&l&m---&8&l&m==[&r &2ListItem &7(&d{page}&8/&d{maxpage}&7) &8&l&m]==&7&l&m---"
+List_Item: "&8&l[&2&l{index}&8&l] &c{item} {tooltip}" 
+
+#-----=====[ Permission Message ]=====-----#
+
+Permission_Empty: "You dont have permission!"
+
+#-----=====[ Player Message ]=====-----#
+
+Player_Target_Offline: "Target player is not online!"
+
+#-----=====[ File Message ]=====-----#
+
+File_Not_Exists: "File target is doesn't exists!"
+
+#-----=====[ Socket Message ]=====-----#
+
+Socket_Slot_Empty: "&cThat item doesn't have slot socket!"
+Socket_Input_Success: "Success add socket of &7&l[&c&l{socket}&7&l] &ron &cline {line}"
+Socket_Input_Creative: "&cYou cannot input socket in gamemode creative!"
+
+#-----=====[ Item Message ]=====-----#
+
+Item_MainHand_Empty: "Item in mainhand is empty!"
+Item_Not_Exist: "Item with name &c{nameid} &ris not exists!"
+Item_Lore_Empty: "Item doesn't contain any lore!"
+Item_Flag_Not_Exist: "ItemFlag of &c{flag} &ris not exists!"
+Item_Enchantment_Not_Exist: "Enchantment of &c{enchantment} &ris not exists!"
+Item_Save: "Item is saved with name {id}"
+Item_Broken: "&c&lYour item &8&l[&r{item}&8&l] &c&lhas broken!"
+Item_Broken_MainHand: "&c&lYour mainhand item has broken!"
+Item_Broken_Offhand: "&c&lYour offhand item has broken!"
+Item_Broken_Helmet: "&c&lYour helmet has broken!"
+Item_Broken_Chestplate: "&c&lYour chestplate has broken!"
+Item_Broken_Leggings: "&c&lYour leggings has broken!"
+Item_Broken_Boots: "&c&lYour boots has broken!"
+Item_Broken_Bow: "&c&lYour bow has broken"
+Item_Durability_Not_Exist: "Item doesnt have lorestats durability"
+Item_NBT_Empty: "&cYour item doesn't have any NBT Attributes"
+Item_Database_Empty: "&cDatabase items is empty!"
+Item_List_Suffix: "&8&l[&c&l?&8&l]"
+
+#-----=====[ Simulation Message ]=====-----#
+
+Simulation_Header: "&7&l&m---&8&l&m==[&r &2Simulation Damage &8&l&m]==&7&l&m---"
+Simulation_Player: "&7&l[&2&l+&7&l]&a Player:"
+Simulation_Mob: "&7&l[&2&l+&7&l]&a Mob:"
+Simulation_Damage_Normal_Player: "&7&l[&2&l+&7&l]&a Normal &f= &c{player-damage-normal}"
+Simulation_Damage_Critical_Player: "&7&l[&2&l+&7&l]&a Critical &f= &c{player-damage-critical}"
+Simulation_Damage_Normal_Mob: "&7&l[&2&l+&7&l]&a Normal &f= &c{mob-damage-normal}"
+Simulation_Damage_Critical_Mob: "&7&l[&2&l+&7&l]&a Critical &f= &c{mob-damage-critical}"
+
+#-----=====[ Detail Message ]=====-----#
+
+Detail_Header: "&7&l&m||----&8&l&m===[&r &2Detail Item &8&l&m]===&7&l&m----||"
+Detail_Name: "&7&l[&2&l+&7&l]&a Name&7: &6{name}"
+Detail_Durability: "&7&l[&2&l+&7&l]&a Durability&7: &6{durability}"
+Detail_ID: "&7&l[&2&l+&7&l]&a ID&7: &6{id}"
+Detail_Data: "&7&l[&2&l+&7&l]&a Data&7: &6{data}"
+Detail_HashCode: "&7&l[&2&l+&7&l]&a HashCode&7: &6{hashcode}"
+Detail_Lores_Head: "&7&l[&2&l+&7&l] &6Lores&7:"
+Detail_Lores_List: "&2- &aLine {line} &7➨ &r{lore}"
+Detail_Enchantment_Head: "&7&l[&2&l+&7&l] &6Enchantment&7:"
+Detail_Enchantment_List: "&2- &a{enchantment} &7➨ &c{grade}"
+Detail_Flags_Head: "&7&l[&2&l+&7&l] &6Flags&7:"
+Detail_Flags_List: "&2- &a{flag}"
+
+#-----=====[ Utility Message ]=====-----#
+
+Utility_Slot_Not_Exists: "Slot of &d{slot} &ris not exists!"
+
+#-----=====[ Attack Message ]=====-----#
+
+Attack_Miss: "&c&lMiss"
+Attack_Dodge: "&c&lAttack Dodged"
+Attack_Block: "&c&lBlock"
+Attack_Blocked: "&c&lAttack Blocked"
+Attack_Critical: "&c&lCritical Attack"
+
+#-----=====[ Ability Message ]=====-----#
+
+Ability_Cannibalism_Attacker: "&7&l[&a+{food}&7&l]&r Food"
+Ability_Cannibalism_Victims: "&7&l[&c+{food}&7&l]&r Food"
+Ability_Vampirism_Attacker: "&7&l[&a+{health}&7&l]&r Health"
+Ability_Vampirism_Victims: "&7&l[&c+{health}&7&l]&r Health"
+Ability_Freeze_Attacker: "&cFreeze enemy {seconds} seconds"
+Ability_Freeze_Victims: "&cYou are freezed"
+Ability_Roots_Attacker: "&cRoot enemy {seconds} seconds"
+Ability_Roots_Victims: "&cRooted"
+Ability_Curse_Attacker: "&cCurse enemy {seconds} seconds"
+Ability_Curse_Victims: "&cCursed"
+
+#-----=====[ Power Message ]=====-----#
+
+Power_Command_Cooldown: "Power Command of &8&l[&9{power}&8&l]&r cooldown &c{time} &rleft"
+Power_Command_Refresh: "Power Command of &8&l[&9{power}&8&l]&r has refreshed"
+Power_Shoot_Cooldown: "Power Shoot of &8&l[&9{power}&8&l]&r cooldown &c{time} &rleft"
+Power_Shoot_Refresh: "Power Shoot of &8&l[&9{power}&8&l]&r has refreshed"
+Power_Special_Cooldown: "Special Power of &8&l[&9{power}&8&l]&r cooldown &c{time} &rleft"
+Power_Special_Refresh: "Special Power of &8&l[&9{power}&8&l]&r has refreshed"
+
+#-----=====[ Time Message ]=====-----#
+
+Time_Years: "years"
+Time_Weeks: "weeks"
+Time_Days: "days"
+Time_Hours: "hours"
+Time_Minutes: "minutes"
+Time_Seconds: "seconds"
