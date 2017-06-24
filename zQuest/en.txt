@@ -1,0 +1,91 @@
+msg.nomore = '&4There are no more pages !'
+msg.invfull = '&4Your inventory is full !'
+msg.condition.error = '&4&l!!! &c<condition>'
+msg.questpart.complete = '&2&l!!! &aYou completed quest part: &2<quest-part>&2 !'
+msg.questpart.show.part1 = '&2<quest-name>&8-->&a<quest-part>'
+msg.questpart.show.part2.done = '&a&l   -done'
+msg.questpart.show.part2.undone = '&c&l   -<objective>'
+msg.questpart.show.part3.condition = '&5&l   **&d<condition>'
+msg.command.noquest = '&cYou're not making a quest now.'
+msg.command.havequest = '&cYou already have a quest !&c (<quest>&c)'
+msg.command.cancel = '<quest> &c cancelled !'
+msg.quest.terminated = 'Quest has taken to maintenance or removed !'
+title.command.cancel = '&eYou cancelled the quest !'
+chestm.leftclick.quest = '&a&lLeft click to take this quest'
+chestm.journal.name.format = '<name> &c&l[<number>]'
+chestm.journal.left = '&a&lLeft click to examine'
+chestm.journal.name = '&2&lJournal'
+quest.status.fail = '&5&lFailed'
+quest.status.complete = '&2&lCompleted'
+command.player = 'quest'
+command.player.cancel = 'cancel'
+command.player.journal = 'journal'
+command.player.quests = 'quests'
+gui.name.quests = '&5&lQuests'
+permission.message = '&4You dont have permission for this command !'
+permission.npc = '&4You dont have permission to access this npc !'
+time.and = 'and'
+time.now = 'now'
+time.plural = 's'
+time.second = 'sec'
+time.min = 'min'
+time.hour = 'hour'
+time.day = 'day'
+time.month = 'month'
+time.year = 'year'
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+{---End of File---}
+VAR.String]
+VAR.String]
+VAR.String]
+VAR.String]
+VAR.String]
+VAR.String]
+VAR.String]
+VAR.String]
+VAR.String]
+VAR.String]
+VAR.String]
+VAR.String]
+VAR.String]
+VAR.String]
+VAR.String]
+VAR.String]
+VAR.String]
+VAR.String]
+VAR.String]
+VAR.String]
+VAR.String]
+VAR.String]
+VAR.String]
+VAR.String]
+VAR.String]
+VAR.String]
+VAR.String]
+VAR.String]
+VAR.String]
+VAR.String]
+VAR.String]
+VAR.String]
+VAR.String]
+VAR.String]
+VAR.String]
