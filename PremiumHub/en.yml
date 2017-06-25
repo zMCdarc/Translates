@@ -2,7 +2,7 @@ Prefix: '&8[&6&lPremiumHub&8] &8> &e'
 Permission: '&ePermission denied.'
 Spawn:
   Teleport: 'You have been teleported to spawn.'
-  Teleport-Message-Enabled: true
+  Teleport-Message-Enabled: 'true'
   Error: 'Spawn location is not placed.'
   Set-Spawn: You have placed the spawn-point.
   Remove-Spawn: You have removed the spawn-point.
@@ -57,10 +57,10 @@ Join-Events:
   Message: '&6[&e+&6] &e%player%&6.'
   First-Join: 'Welcome %player%, It´s your first time! #%joins%.'
   Titles:
-    Enabled: true
-    FadeIn: 5
-    Stay: 10
-    FadeOut: 5
+    Enabled: 'true'
+    FadeIn: '5'
+    Stay: '10'
+    FadeOut: '5'
     Title: '&6Welcome'
     Subtitle: '&e%name%&6!'
   MOTD: 
@@ -107,7 +107,7 @@ PreLogin:
   Unknown: 'An unexpected error has occurred. Please try again later.'
   FullServer: 'Unfortunately is the server full. %newline% Donate to a higher rank to have always have a place!'
 Anti-Spam:
-  Delay: 2
+  Delay: '2'
   Message: 'Please wait before chatting again.'
 
 GameMode:
@@ -130,7 +130,7 @@ Warp:
     Length-0: 'Correct usage: /warp (name)'
     NotExist: 'Warp does not exist'
     Warping: 'You have been teleported to %warp%'
-    Warping-Message: true
+    Warping-Message: 'true'
   SetWarp:
     Length-0: 'Correct usage: /setwarp (name)'
     AlreadyExist: 'This warp does already exists.'
