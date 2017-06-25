@@ -1,0 +1,141 @@
+Prefix: '&8[&6&lPremiumHub&8] &8> &e'
+Permission: '&ePermission denied.'
+Spawn:
+  Teleport: 'You have been teleported to spawn.'
+  Teleport-Message-Enabled: true
+  Error: 'Spawn location is not placed.'
+  Set-Spawn: You have placed the spawn-point.
+  Remove-Spawn: You have removed the spawn-point.
+Voidfall:
+  Length-0: 'Correct usage: /voidfall set/remove'
+  Teleport: 'You have been teleported back to voidfall-spawn.'
+  Error: 'Voidfall spawn location is not placed.'
+  Set-Voidfall: You have placed the voidfall spawn-point.
+  Remove-Voidfall: You have removed the voidfall spawn-point.
+ClearChat:
+  Clear: '%player% cleared the global chat.'
+  Anonymous: 'Chat got cleared. :<'
+  Private: 'You have cleared your chat.'
+  Silent: 'You have cleared the global chat silent!'
+ChatHandler:
+  Disabled-Chat: 'Chat is disabled. You are not able to write a message.'
+Broadcast:
+  Length-0: 'Correct usage: /broadcast <message here>'
+Reload-Server:
+  Before:
+  - 'Reloading Network. Please wait.'
+  After:
+  - 'Reload is finished. Thanks for your time.'
+Teleport:
+  Length-0: 'Correct usage: /teleport <username>'
+  Offline: 'Target is not online.'
+  Teleported: 'You have teleported to %target%.'
+  Tphere:
+    Length-0: 'Correct usage: /teleporthere <username>'
+    Offline: 'Target is not online.'
+    Teleported: 'You have teleported to %target% to you.'
+  Tpall:
+    Private: 'All players have been teleported to your location.'
+    Broadcast: '%player% teleported all players to he´s location.'
+Flight:
+  You:
+    Enabled: 'You have enabled flight.'
+    Disable: 'You have disabled flight.'
+  Other:
+    Offline: 'Target is not online.'
+    Enabled_Target: 'Flight Enabled.'
+    Disable_Target: 'Flight Disabled.'
+    Enabled: 'You have enabled flight for %target%.'
+    Disable: 'You have disabled flight for %target%.'
+Reload:
+  Plugin:
+    Reloaded: 'You have reloaded the configuration files.'
+  Server:
+    First: 'Reloading Server. Please Wait.'
+    After: 'Reload completed.'
+Join-Events: 
+  Message: '&6[&e+&6] &e%player%&6.'
+  First-Join: 'Welcome %player%, It´s your first time! #%joins%.'
+  Titles:
+    Enabled: true
+    FadeIn: 5
+    Stay: 10
+    FadeOut: 5
+    Title: '&6Welcome'
+    Subtitle: '&e%name%&6!'
+  MOTD: 
+  - '&6Welcome, &e%player%'
+  - '&6It´s currently: &e%online_players%&6!'
+  - ''
+  - '&6&lLATEST UPDATE!'
+  - '&6New Lobby-Plugin &7(&3PremiumHub&7)&6.'
+  NewUpdate-Message:
+  - '&6There is a new update of &ePremiumHub&6!'
+Leave-Events:
+  Message: '&6[&c-&6] &e%player%&6.'
+Help:
+  Message:
+  - '&6&lWelcome to our network. :)'
+BuildMode:
+  You:
+    Enabled: 'You have enabled build-mode.'
+    Disable: 'You have disabled build-mode.'
+  Other:
+    Offline: 'Target is not online.'
+    Enabled_Target: 'Build-mode enabled by: %player%'
+    Disable_Target: 'Build-mode disabled by: %player%.'
+    Enabled: 'You have enabled build-mode for %target%.'
+    Disable: 'You have disabled build-mode for %target%.'
+    Build-Mode-Disabled: 'You are not able to perform build. Since it´s disabled.'
+Vanish:
+  Variable: '@'
+  Can-Not-Chat: 'You can not chat whiles vanished. Please use a %variable% in front of your message.'
+  Can-Not-PickUp-Items: 'You can not pickup items whiles vanished.'
+  You:
+    Enabled: 'You have enabled vanish-mode.'
+    Disable: 'You have disabled vanish-mode.'
+  Other:
+    Offline: 'Target is not online.'
+    Enabled_Target: 'Vanish-Mode enabled by: %player%'
+    Disable_Target: 'Vanish-Mode disabled by: %player%.'
+    Enabled: 'You have enabled vanish-mode for %target%.'
+    Disable: 'You have disabled vanish-mode for %target%.'
+Other:
+  Joins: 'We currently have #%joins% unique joins.'
+PreLogin: 
+  Whitelist: '&3You are not whitelisted at our network.'
+  Unknown: 'An unexpected error has occurred. Please try again later.'
+  FullServer: 'Unfortunately is the server full. %newline% Donate to a higher rank to have always have a place!'
+Anti-Spam:
+  Delay: 2
+  Message: 'Please wait before chatting again.'
+
+GameMode:
+  Offline: 'Target is not online.'
+  Length-0: 'Correct usage: /gamemode (Survival | 0 [Survival] Creative | 1 [Creative]'
+  Creative:
+    You:
+      Message: 'You have changed your gamemode to Creative.'
+    Other:
+      Changed_Target: 'GameMode: Creative, Changed by: %player%'
+      Changed: 'You have updated the gamemode to Creative for the user: %target%'
+  Survival:
+    You:
+      Message: 'You have changed your gamemode to Survival.'
+    Other:
+      Changed_Target: 'GameMode: Survival, Changed by: %player%'
+      Changed: 'You have updated the gamemode to Survival for the user: %target%'
+Warp:
+  Warp: 
+    Length-0: 'Correct usage: /warp (name)'
+    NotExist: 'Warp does not exist'
+    Warping: 'You have been teleported to %warp%'
+    Warping-Message: true
+  SetWarp:
+    Length-0: 'Correct usage: /setwarp (name)'
+    AlreadyExist: 'This warp does already exists.'
+    Set: 'You have set warp: %warp%.'
+  DelWarp:
+    Length-0: 'Correct usage: /delwarp (name)'
+    NotExist: 'You are not able to remove this one, It´s not exist!'
+    Removed: 'You have removed %warp%.'
