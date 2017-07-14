@@ -1,11 +1,11 @@
 # Would you like hyperdrive to display a chat color list for your players when they need to type a color code? #
-Display Chat Color List: true
+Display Chat Color List: 'true'
 # Should it tell a player when they bypassed the teleportation delay? #
-Teleport Delay Bypass Message: true
+Teleport Delay Bypass Message: 'true'
 # Should it tell a player when they bypassed the teleportation cooldown? #
-Teleport Cooldown Bypass Message: true
+Teleport Cooldown Bypass Message: 'true'
 # Should it tell a player when they bypassed a economy transaction through hyperdrive? #
-Money Bypass Message: true
+Money Bypass Message: 'true'
 
 # Standalone Teleportation Messages.
 ST Help Menu:
