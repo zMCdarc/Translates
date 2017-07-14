@@ -9,11 +9,11 @@ Money Bypass Message: true
 
 # Standalone Teleportation Messages.
 ST Help Menu:
-- "&5<----[ &d传送 &5]---->"
-- "&d/tp <player> <player> - &e将第一个玩家传送到第二个玩家."
-- "&d/tpa <player> - &e发送传送请求给玩家."
-- "&d/tpaccept <player> - &e同意玩家传送请求."
-- "&d/tpdeny <player> - &e拒绝玩家传送请求."
+- "&5<----[ &dHyperDrive &5]---->"
+- "&d/tp <player> <player> - &eTeleports the first entered player to the second player."
+- "&d/tpa <player> - &eSends a teleport request to the entered player."
+- "&d/tpaccept <player> - &eAccepts the teleport request from the entered player."
+- "&d/tpdeny <player> - &eDenys the teleport request from the entered player."
 - "&d/tppos <x> <y> <z> - &eTeleports you to the entered coordinates in the current world."
 - "&d/tpo <player> - &eTeleports you to the specified player without notifying them."
 - "&d/tphere <player> - &eTeleports the specified player to your location."
